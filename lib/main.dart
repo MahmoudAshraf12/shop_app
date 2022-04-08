@@ -7,9 +7,6 @@ import 'package:udemy/layout/news_app/cubit/cubit.dart';
 import 'package:udemy/layout/news_app/cubit/states.dart';
 import 'package:udemy/layout/news_app/news_layout.dart';
 import 'package:udemy/layout/shop_app/cubit/cubit.dart';
-import 'package:udemy/modules/bmi_result/BMI_Result_Screen.dart';
-import 'package:udemy/modules/bmi/Bmi_Screen.dart';
-import 'package:udemy/modules/counter/counter_screen.dart';
 import 'package:udemy/modules/home/Home_Screen.dart';
 import 'package:udemy/modules/login/Lock_Screen.dart';
 import 'package:udemy/modules/messenger/Messenger_Screen.dart';
@@ -23,9 +20,9 @@ import 'package:udemy/shared/styles/themes.dart';
 
 void main() {
   //var blocObserver = MyBlocObserver();
-   DioHelper.init();
-  // CacheHelper.init();
-  // token =CacheHelper.getData(key: 'token');
+  DioHelper.init();
+   CacheHelper.init();
+   token =CacheHelper.getData(key: 'token');
   // bool onBoarding =CacheHelper.getData(key: 'onBoarding');
   // print(onBoarding);
   runApp(MyApp());
