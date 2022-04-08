@@ -8,7 +8,6 @@ import 'package:udemy/layout/news_app/cubit/states.dart';
 import 'package:udemy/layout/news_app/news_layout.dart';
 import 'package:udemy/layout/shop_app/cubit/cubit.dart';
 import 'package:udemy/modules/home/Home_Screen.dart';
-import 'package:udemy/modules/login/Lock_Screen.dart';
 import 'package:udemy/modules/messenger/Messenger_Screen.dart';
 import 'package:udemy/modules/shop_app/on_boarding/on_boarding_Screen.dart';
 import 'package:udemy/modules/users/Users_Screen.dart';
